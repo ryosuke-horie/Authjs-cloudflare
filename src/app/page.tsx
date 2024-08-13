@@ -16,5 +16,10 @@ export default function Home() {
       .then((json) => setName(json.name));
   }, []);
 
-  return <p>{typeof name !== "undefined" ? `Hello ${name}!` : "Loading..."}</p>;
+  return (
+    <div>
+        <p>{typeof name !== "undefined" ? `Hello ${name}!` : "Loading..."}</p>
+    </div>
+  )
+  
 }
