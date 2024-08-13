@@ -8,4 +8,6 @@ https://zenn.dev/nbstsh/scraps/ef555a5ae79ec3
 
 ## 収穫
 
-Honoが提供するhcを利用すれば型を付けることができる
+- Honoが提供するhcを利用すれば型を付けることができる
+- Authjsを利用してGoogle認証を作成することができる
+- CloudflareのEdgeランタイムでも動作することが確認できた
